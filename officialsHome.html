@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOTE  |  BE RESPONSIBLE </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        #font-body {
+          font-family: 'Poppins', sans-serif;
+            /* font-family: sans-serif; */
+            font-weight: 800;
+            font-style: normal;
+        }
+      </style>
+</head>
+<body class="font-body">
+    <nav>
+        <div class="flex justify-between bg-[#F4F5F7] rounded-md p-1">
+            <div>
+                <a href="index.html"> <h2 class="text-[#172B4D] font-black text-[40px] ml-16" id="font-body">VOTING APP</h2></a>
+               
+            </div>
+            <!-- <div> -->
+            <div class="flex items-center mx-5">
+                <div class="mr-2">
+                    <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                        <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
+                        <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
+                      </svg></a>
+                </div>
+                
+                <div><a class="bg-red-600 text-white p-2 rounded-md mx-3 font-medium text-[16px] hover:bg-red-700 hover:text-white" href="">LOGOUT</a></div>
+            </div>
+        </div>
+    </nav>
+
+<!-- <div class=" bg-[#F4F5F7] text-red-700">
+    <div class=""> 
+        <marquee behavior="" direction=""><p class="">Annoucement</p></marquee>
+    </div>
+</div> -->
+<div class="grid grid-rows-2 grid-cols-1">
+    <div class="flex flex-row bg-[#409D9B] gap-2 justify-center items-center">
+        <div class="bg-[#FDE9C9] m-2 p-2 rounded-md"><a href="officialsHome.html">HOME</a></div>
+        <div class="bg-[#DBF094] m-2 p-2 rounded-md"><a href="viewVoters.html">View Voters</a></div>
+        <div class="bg-[#DBF094]  m-2 p-2 rounded-md"><a href="viewCandidates.html">View Candidates</a></div>
+        <div class="bg-[#DBF094]  m-2 p-2 rounded-md"><a href="electionStartsStops.html">Election start/stop</a></div>
+        <div class="bg-[#DBF094]  m-2 p-2 rounded-md"><a href="sendSecretCode.html">Secret Code Generation</a></div>
+        <div class="bg-[#DBF094]  m-2 p-2 rounded-md"><a href=""></a>View Results</div>
+    </div>
+</div>
+
+<div class="max-w-[85%] grid grid-cols-1 md:grid-cols-3 gap-4 m-auto">
+    <div class="bg-green-500 text-white p-4 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-2">Voters Approved</h3>
+        <p class="text-3xl font-bold">250</p>
+    </div>
+
+    <div class="bg-red-500 text-white p-4 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-2">Voters Rejected</h3>
+        <p class="text-3xl font-bold">50</p>
+    </div>
+
+    <div class="bg-blue-500 text-white p-4 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-2">Candidates Approved</h3>
+        <p class="text-3xl font-bold">20</p>
+    </div>
+
+    <div class="bg-yellow-500 text-white p-4 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-2">Candidates Rejected</h3>
+        <p class="text-3xl font-bold">5</p>
+    </div>
+
+    <div class="bg-purple-500 text-white p-4 rounded-lg shadow-md col-span-3 md:col-span-1">
+        <h3 class="text-lg font-semibold mb-2">Progress of Election</h3>
+        <p class="text-lg font-semibold">50% Complete</p>
+        <div class="w-full bg-gray-300 mt-2 rounded-full">
+            <div class="bg-green-500 text-xs leading-none py-1 text-center text-white rounded-full" style="width: 50%;">50%</div>
+        </div>
+    </div>
+
+    <div class="bg-purple-500 text-white p-4 rounded-lg shadow-md col-span-3 md:col-span-1">
+        <h3 class="text-lg font-semibold mb-2">Current Election Status</h3>
+        <p class="text-3xl font-bold">Active</p>
+    </div>
+</div>
+
+<div class="max-w-[70%] mt-8 p-4 bg-white border border-gray-300 rounded-lg shadow-md m-auto">
+    <h3 class="text-lg font-semibold mb-4">Live Result Viewer</h3>
+    <div class="flex justify-between items-center border-b border-gray-300 pb-2 mb-4">
+        <p class="text-lg font-semibold">Candidate 1</p>
+        <p class="text-xl font-bold text-green-500">60%</p>
+    </div>
+    <div class="flex justify-between items-center border-b border-gray-300 pb-2 mb-4">
+        <p class="text-lg font-semibold">Candidate 2</p>
+        <p class="text-xl font-bold text-red-500">40%</p>
+    </div>
+    <div class="flex justify-between items-center border-b border-gray-300 pb-2 mb-4">
+        <p class="text-lg font-semibold">Candidate 3</p>
+        <p class="text-xl font-bold text-blue-500">30%</p>
+    </div>
+    </div>
+    <br><br>
+    <footer class="bg-gray-800 text-white p-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <p>&copy;Votting App | A Student Project</p>
+            <p>Designed with ❤️ by VISHNU A G</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
